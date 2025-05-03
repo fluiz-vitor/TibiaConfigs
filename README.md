@@ -39,8 +39,6 @@ chmod +x ConfigInicial.sh
 
 5. Reinicie o jogo após a importação.
 
-### 🖼️ Exemplo da tela:
-
 ![Importando configurações do Tibia](images/img.png)
 
 ---
