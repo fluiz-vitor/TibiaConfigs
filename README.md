@@ -1,8 +1,10 @@
-# TibiaConfigs
+# 🎮 TibiaConfigs
 
-**Passo a Passo: Instalação e Configuração do Ambiente**
+Guia para instalação e configuração do ambiente Linux + Tibia.
 
-## :one: **Baixar e Instalar o Linux Lite 7.2:**
+---
+
+## :one: **Baixar e Instalar o Linux Lite 7.2**
 
 - Baixe a ISO do Linux Lite 7.2 (64 bits) [**aqui**](https://mirror.accum.se/mirror/linuxliteos.com/isos/7.2/linux-lite-7.2-64bit.iso).
 
@@ -11,29 +13,36 @@
 
 - Após criar o pendrive/DVD, instale o Linux Lite 7.2 no seu computador.
 
-## :two: **Configuração Inicial do Sistema:**
+---
+
+## :two: **Configuração Inicial do Sistema**
 
 - Baixe o arquivo `ConfigInicial.sh` e coloque-o na **Área de Trabalho**.
 
-- No terminal, execute os seguintes comandos para dar permissão de execução e rodar o script:
+- No terminal, execute os comandos abaixo:
 
 ```bash
 chmod +x ConfigInicial.sh
 ./ConfigInicial.sh
 ```
 
-## :three: **Configurar o Jogo:**
+---
 
-Clique nas configuracoes > Show Advanced Options > Misc > Help > Import Options/Minimap
-![Tibia](images/img.png)
+## :three: **Configurar o Jogo**
 
-Apos isso selecione o arquivo **TibiaConfigHotkeys** que esta no seu desktop
+1. No cliente do Tibia, vá em:  
+   **Settings > Show Advanced Options > Misc > Help > Import Options/Minimap**
 
-Reinicie o jogo!
+2. Quando solicitado, selecione o arquivo **TibiaConfigHotkeys** localizado na sua **Área de Trabalho**.
 
-## :four: **Baixar o Repositório PyTibia:**
-Faça o download do repositório [**PyTibia no Linux**](https://github.com/lucasmonstrox/pytibia-no-linux) e coloque a pasta na Área de Trabalho.
+3. Reinicie o jogo após a importação.
 
-:five: 
+### 🖼️ Exemplo da tela:
 
+![Importando configurações do Tibia](images/img.png)
 
+---
+
+## :four: **Baixar o Repositório PyTibia**
+
+- Baixe o repositório [**PyTibia no Linux**](https://github.com/lucasmonstrox/pytibia-no-linux) e coloque a pasta na **Área de Trabalho**.
