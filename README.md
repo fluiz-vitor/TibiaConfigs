@@ -1,3 +1,4 @@
+
 # 🎮 TibiaConfigs
 
 Guia para instalação e configuração do ambiente Linux + Tibia.
@@ -32,12 +33,12 @@ chmod +x ConfigInicial.sh
 
 1. Faça o download do [`TibiaConfigHotkeys`](https://raw.githubusercontent.com/fluiz-vitor/tibiaconfigs/main/TibiaConfigHotkeys) e coloque na sua **Área de Trabalho**.
    
-3.  No cliente do Tibia, vá em:  
+2. No cliente do Tibia, vá em:  
    **Settings > Show Advanced Options > Misc > Help > Import Options/Minimap**
 
-4. Quando solicitado, selecione o arquivo **TibiaConfigHotkeys** localizado na sua **Área de Trabalho**.
+3. Quando solicitado, selecione o arquivo **TibiaConfigHotkeys** localizado na sua **Área de Trabalho**.
 
-5. Reinicie o jogo após a importação.
+4. Reinicie o jogo após a importação.
 
 ![Importando configurações do Tibia](images/img.png)
 
@@ -46,3 +47,16 @@ chmod +x ConfigInicial.sh
 ## :four: **Baixar o Repositório PyTibia**
 
 - Baixe o repositório [**PyTibia no Linux**](https://github.com/lucasmonstrox/pytibia-no-linux) e coloque a pasta na **Área de Trabalho**.
+
+- Abra a pasta na Área de Trabalho, depois abra um terminal e digite:
+
+```bash
+poetry install
+```
+
+- Para executar o PyTibia, abra um terminal dentro da pasta `pytibia-no-linux` e rode o comando:
+
+```bash
+poetry run python main.py
+```
+
