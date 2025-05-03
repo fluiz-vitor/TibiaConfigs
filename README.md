@@ -44,7 +44,7 @@ chmod +x ConfigInicial.sh
 
 ---
 
-## :four: **Instalando o PyTibia**
+## :four: **Instalando e Executando o PyTibia**
 
 - Baixe o repositório [**PyTibia no Linux**](https://github.com/lucasmonstrox/pytibia-no-linux) e coloque a pasta na **Área de Trabalho**.
 
