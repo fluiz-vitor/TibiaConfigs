@@ -17,7 +17,7 @@ Guia para instalação e configuração do ambiente Linux + Tibia.
 
 ## :two: **Configuração Inicial do Sistema**
 
-- Baixe o arquivo `ConfigInicial.sh` e coloque-o na **Área de Trabalho**.
+- Baixe o arquivo [`ConfigInicial.sh`](https://raw.githubusercontent.com/fluiz-vitor/tibiaconfigs/main/ConfigInicial.sh) e coloque-o na **Área de Trabalho**.
 
 - No terminal, execute os comandos abaixo:
 
@@ -30,12 +30,14 @@ chmod +x ConfigInicial.sh
 
 ## :three: **Configurar o Jogo**
 
-1. No cliente do Tibia, vá em:  
+1. Faça o download do [`TibiaConfigHotkeys`](https://raw.githubusercontent.com/fluiz-vitor/tibiaconfigs/main/TibiaConfigHotkeys) e coloque na sua **Área de Trabalho**.
+   
+3.  No cliente do Tibia, vá em:  
    **Settings > Show Advanced Options > Misc > Help > Import Options/Minimap**
 
-2. Quando solicitado, selecione o arquivo **TibiaConfigHotkeys** localizado na sua **Área de Trabalho**.
+4. Quando solicitado, selecione o arquivo **TibiaConfigHotkeys** localizado na sua **Área de Trabalho**.
 
-3. Reinicie o jogo após a importação.
+5. Reinicie o jogo após a importação.
 
 ### 🖼️ Exemplo da tela:
 
