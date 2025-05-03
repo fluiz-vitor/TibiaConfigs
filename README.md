@@ -22,7 +22,7 @@ chmod +x ConfigInicial.sh
 ./ConfigInicial.sh
 ```
 
-##:three: **Configurar o Jogo:**
+## :three: **Configurar o Jogo:**
 
 Clique nas configuracoes > Show Advanced Options > Misc > Help > Import Options/Minimap
 ![Tibia](images/img.png)
@@ -31,7 +31,7 @@ Apos isso selecione o arquivo **TibiaConfigHotkeys** que esta no seu desktop
 
 Reinicie o jogo!
 
-##:four: **Baixar o Repositório PyTibia:**
+## :four: **Baixar o Repositório PyTibia:**
 Faça o download do repositório [**PyTibia no Linux**](https://github.com/lucasmonstrox/pytibia-no-linux) e coloque a pasta na Área de Trabalho.
 
 :five: 
