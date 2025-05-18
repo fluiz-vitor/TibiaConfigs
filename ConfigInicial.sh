@@ -3,11 +3,11 @@
 set -e  # Encerra o script se qualquer comando falhar
 
 echo "==> Atualizando pacotes..."
-sudo apt-get update -qq > /dev/null
-sudo apt-get upgrade -y -qq > /dev/null
+sudo apt update -qq > /dev/null
+sudo apt upgrade -y -qq > /dev/null
 
 echo "==> Instalando pacotes necessários..."
-sudo apt-get install -y -qq \
+sudo apt install -y -qq \
   pciutils \
   ttf-mscorefonts-installer \
   gedit \
@@ -24,7 +24,7 @@ echo "==> Instalando Poetry com pipx..."
 sudo pipx install poetry > /dev/null || echo "❗ Falha ao instalar via pipx (pode já estar instalado)."
 
 echo "==> Instalando Poetry com python3..."
-sudo apt-get install -y python3-poetry > /dev/null || echo "❗ Poetry via apt já instalado ou falhou."
+sudo apt install -y python3-poetry > /dev/null || echo "❗ Poetry via apt já instalado ou falhou."
 
 echo "==> Modificando /etc/fonts/fonts.conf para melhorar renderização da Verdana..."
 sudo touch /etc/fonts/fonts.conf
